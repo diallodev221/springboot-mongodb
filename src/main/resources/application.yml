@@ -1,3 +1,16 @@
 spring:
   application:
     name: springboot-mongodb
+
+---
+spring:
+  data:
+    mongodb:
+      authentication-database: devfun
+      username: diallodev
+      password: devfun
+      database: employeedb
+      host: devfun.swytfhb.mongodb.net
+      uri: mongodb+srv://diallodev:devfun@devfun.swytfhb.mongodb.net/employeedb?retryWrites=true&w=majority
+      port: 27017
+      auto-index-creation: true
